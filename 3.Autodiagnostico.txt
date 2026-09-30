@@ -1,0 +1,16 @@
+
+1. ¿En qué se diferencian <div> y <section>?
+Div es un contenedro y section es una sección dentro del docuemento
+
+2. ¿Por qué una página debe tener un solo <main>?
+Porque ahí es donde esta todo el contenido principal unico de la pagina. 
+
+3. ¿Para qué sirve el atributo lang en la etiqueta <html>?
+Para definir el idioma en el que va a estar el documento 
+
+4. ¿Qué diferencia hay entre <strong> y simplemente poner un texto en negrita con estilo?
+Strong es para que tenga importancia semantica y enfasis en el texto, negrita es solo algo estetico
+
+5. ¿Qué relación crea el atributo for de un <label>?
+Enlaza la etiqueta de texto con el campo de entrada. 
+
