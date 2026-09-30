@@ -1,0 +1,15 @@
+
+ ¿Por qué se recomienda usar rutas relativas y no la ruta completa de tu computador (por
+ejemplo, C:\Users\...)?
+    Se deben usar rutas relativas porque garantizan que los enlaces y recursos de el proyecto funcionen en cualquier computador,
+    servidor o sistema operativo sin romperse al mover los archivos.
+
+¿Qué información aporta lang="es" y a quién le sirve (usuarios, buscadores, lectores de
+pantalla)?
+    Declara que el idioma principal del sitio es el español, lo que le permite a los 
+    lectores de pantalla usar la pronunciación correcta a los buscadores y a los usuarios recibir sugerencias de
+    traducción automática en sus navegadores
+
+Si todo se escribiera con <div>, ¿qué ventajas de accesibilidad y mantenimiento se perderían?
+    Perdería la capacidad de ofrecer una navegación fluida a las personas que usan lectores de 
+    pantalla mediante puntos de referencia claros
