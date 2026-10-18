@@ -13,3 +13,7 @@ pantalla)?
 Si todo se escribiera con <div>, ¿qué ventajas de accesibilidad y mantenimiento se perderían?
     Perdería la capacidad de ofrecer una navegación fluida a las personas que usan lectores de 
     pantalla mediante puntos de referencia claros
+
+¿Cuándo usarías <section> y cuándo <article>? Da un ejemplo de tu proyecto del curso
+    Para dividir las secciones de triage o de hospitalizaciones y article para información importante dentro de una pagina.
+

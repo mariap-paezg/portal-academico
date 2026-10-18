@@ -9,45 +9,99 @@
     />
     <title>Portal Académico | Programación Web</title>
   </head>
-<body>
+  <body>
+    <a href="#contenido">Saltar al contenido principal</a>
     <header>
-        <h1>Portal Académico de Programación Web</h1>
-        <p>Programación Web · Ingeniería de Sistemas</p>
+      <h1>Portal Académico</h1>
+      <p>Programación Web · Ingeniería de Sistemas</p>
     </header>
     <nav aria-label="Menú principal">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="datos.html">Cronograma</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="datos.html">Cronograma</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
-    <main>
-        <section aria-labelledby="t-portal">
-            <h2 id="t-portal">¿Qué es este portal?</h2>
-            <p>Espacio de apoyo del curso de Programación Web.</p>
-        </section>
-        <section aria-labelledby="t-fases">
-            <h2 id="t-fases">Fases del curso</h2>
-            <article>
-            <h3>Fase 1 — Frontend moderno</h3>
-            <p>HTML5 semántico, CSS3, Bootstrap y JavaScript ES6+.</p>
-            </article>
+    <main id="contenido">
+      <section aria-labelledby="t-portal">
+        <h2 id="t-portal">¿Qué es este portal?</h2>
+        <figure>
+          <img
+            src="img/portal.png"
+            alt="Captura de la página de inicio del portal académico"
+            width="600"
+            height="400"
+          />
+          <figcaption>Figura 1. Página de inicio del portal.</figcaption>
+        </figure>
+        <p>Espacio de apoyo del curso de Programación Web.</p>
+        <p>
+          <strong>Importante:</strong> el proyecto del curso se construye por
+          etapas.
+        </p>
+        <p>
+          El curso usa una
+          <abbr title="Interfaz de Programación de Aplicaciones">API</abbr> REST
+          y <em>no</em> plantillas del servidor.
+        </p>
+        <p>Lo más importante de esta fase: <mark>HTML5 semántico</mark>.</p>
+        <blockquote>
+          <p>La web semántica mejora la comprensión del contenido.</p>
+          <footer>
+            Fuente: <cite>Guía definitiva de HTML5 semántico</cite>
+          </footer>
+        </blockquote>
+        <p>
+          Última actualización:
+          <time datetime="2026-09-30">30 de septiembre de 2026</time>
+        </p>
+      </section>
+
+      <section aria-labelledby="t-fases">
+        <h2 id="t-fases">Fases del curso</h2>
         <article>
-        <h3>Fase 2 — Control de versiones</h3>
-        <p>Git, ramas, GitHub y Pull Requests.</p>
+          <h3>Fase 1 — Frontend moderno</h3>
+          <p>HTML5 semántico, CSS3, Bootstrap y JavaScript ES6+.</p>
         </article>
-        </section>
-    
-    <aside> 
-        <h2>Recursos recomendados</h2> 
-        <ul> 
-            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li> <li><a href="https://www.w3.org/WAI/" target="_blank" rel="noopener">W3C Web Accessibility Initiative</a></li> 
+        <article>
+          <h3>Fase 2 — Control de versiones</h3>
+          <p>Git, ramas, GitHub y Pull Requests.</p>
+        </article>
+        <article>
+          <h3>Fase 3 — Metodologias Agiles</h3>
+          <p>Scrum, Kanban y metodologías ágiles.</p>
+        </article>
+        <article>
+          <h3>Fase 4 — Desarollo Backend por Sprints</h3>
+          <p>
+            Desarrollo de aplicaciones backend utilizando metodología de
+            sprints.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Recursos recomendados</h2>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/"
+              target="_blank"
+              rel="noopener"
+              >MDN Web Docs</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener"
+              >W3C Web Accessibility Initiative</a
+            >
+          </li>
         </ul>
-    </aside>
+      </aside>
     </main>
     <footer>
-        <p>© 2026 Portal Académico</p>
-        <address>Contacto: docente@ejemplo.edu</address>
+      <p>© 2026 Portal Académico</p>
+      <address>Contacto: docente@ejemplo.edu</address>
     </footer>
-</body>
+  </body>
 </html>
