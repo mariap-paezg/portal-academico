@@ -3,55 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cronograma || Portal Académico</title>
+    <title>Cronograma | Portal Académico</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <a href="#contenido">Saltar al contenido principal</a>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
 
     <header>
       <h1>Cronograma del Proyecto</h1>
       <p>Programación Web · Ingeniería de Sistemas</p>
     </header>
     <nav aria-label="Menú principal">
-      <ul>
+      <ul class="nav-list">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="datos.html">Cronograma</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
-    <main id="contenido">
-      <section aria-labelledby="t-crono">
-        <h2 id="t-crono">Etapas del proyecto del curso</h2>
-        <table>
-          <caption>
-            Cronograma del proyecto del curso
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col">Etapa</th>
-              <th scope="col">Semanas</th>
-              <th scope="col">Entregable</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Fase 1 — Diseño de interfaz</th>
-              <td>6</td>
-              <td>Interfaz funcional conectada a una API</td>
-            </tr>
-            <tr>
-              <th scope="row">Fase 2 — Planeación con Scrum</th>
-              <td>7</td>
-              <td>Documento Scrum</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="3">La sustentación final es en la semana 15.</td>
-            </tr>
-          </tfoot>
-        </table>
-      </section>
+    <main id="contenido" class="layout-2col">
+      <div class="content">
+        <section class="card" aria-labelledby="t-crono">
+          <h2 id="t-crono">Etapas del proyecto del curso</h2>
+          <div class="tabla-responsive">
+            <table>
+              <caption>
+                Cronograma del proyecto del curso
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Etapa</th>
+                  <th scope="col">Semanas</th>
+                  <th scope="col">Entregable</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Fase 1 — Diseño de interfaz</th>
+                  <td>6</td>
+                  <td>Interfaz funcional conectada a una API</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fase 2 — Planeación con Scrum</th>
+                  <td>7</td>
+                  <td>Documento Scrum</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">La sustentación final es en la semana 15.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
       <p>© 2026 Portal Académico</p>
